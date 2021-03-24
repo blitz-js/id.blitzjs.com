@@ -136,7 +136,7 @@ export const documentationNav = [
   {
     title: (
       <Title
-        title="Queries & Mutasi"
+        title="Kueri & Mutasi"
         iconPath="/img/queries.svg"
         iconDarkPath="/img/queries-white.svg"
       />
