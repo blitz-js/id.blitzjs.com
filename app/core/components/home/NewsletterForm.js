@@ -11,11 +11,11 @@ const NewsletterForm = ({className, hasDarkMode}) => {
       className={`relative ${className}`}
     >
       <input
-        aria-label="Email Address"
+        aria-label="Alamat Email"
         name="EMAIL"
         type="email"
         required
-        placeholder="Enter Your Email Address"
+        placeholder="Masukan Alamat Email Kamu"
         className={`w-full p-2 text-base placeholder-current bg-transparent border ${
           hasDarkMode ? "border-blue-light dark:border-white" : "border-white"
         } border-opacity-50 rounded-sm font-secondary`}
