@@ -1,0 +1,190 @@
+[
+  {
+    "title": {
+      "title": "Pengantar",
+      "iconPath": "/img/introduction.svg",
+      "iconDarkPath": "/img/introduction-white.svg"
+    },
+    "pages": ["get-started", "tutorial", "what-is-nextjs", "why-blitz", "tradeoffs", "stickers"]
+  },
+  {
+    "title": {
+      "title": "Komunitas",
+      "iconPath": "/img/people-purple.svg",
+      "iconDarkPath": "/img/people-white.svg"
+    },
+    "pages": [
+      "how-the-community-operates",
+      "manifesto",
+      "community-history",
+      "contributing",
+      "maintainers",
+      "code-of-conduct",
+      "translations"
+    ]
+  },
+  {
+    "title": {
+      "title": "Dasar",
+      "iconPath": "/img/basics.svg",
+      "iconDarkPath": "/img/basics-white.svg"
+    },
+    "pages": [
+      "file-structure",
+      "app-component",
+      "css",
+      "image-optimization",
+      "static-files",
+      "environment-variables",
+      "error-handling",
+      "testing"
+    ]
+  },
+  {
+    "title": {
+      "title": "Halaman",
+      "iconPath": "/img/pages.svg",
+      "iconDarkPath": "/img/pages-white.svg"
+    },
+    "pages": [
+      "pages",
+      "redirects",
+      "error-pages",
+      "head-component",
+      "document-component",
+      "preview-mode",
+      "static-html-export",
+      "code-splitting",
+      "get-static-props",
+      "get-static-paths",
+      "get-server-side-props"
+    ]
+  },
+  {
+    "title": {
+      "title": "Rute",
+      "iconPath": "/img/routing.svg",
+      "iconDarkPath": "/img/routing-white.svg"
+    },
+    "pages": [
+      "routing",
+      "routing-conventions",
+      "i18n-routing",
+      "link",
+      "route-params-query",
+      "router",
+      "api-routes",
+      "shallow-routing"
+    ]
+  },
+  {
+    "title": {
+      "title": "Otentikasi",
+      "iconPath": "/img/shield-purple.svg",
+      "iconDarkPath": "/img/shield-white.svg"
+    },
+    "pages": [
+      "auth",
+      "session-management",
+      "authorization",
+      "auth-utils",
+      "passportjs",
+      "impersonation"
+    ]
+  },
+  {
+    "title": {
+      "title": "Pusat Data",
+      "iconPath": "/img/database.svg",
+      "iconDarkPath": "/img/database-white.svg"
+    },
+    "pages": ["database-overview", "postgres", "database-seeds", "prisma", "fauna"]
+  },
+  {
+    "title": {
+      "title": "Kueri & Mutasi",
+      "iconPath": "/img/queries.svg",
+      "iconDarkPath": "/img/queries-white.svg"
+    },
+    "pages": [
+      "query-resolvers",
+      "query-usage",
+      "mutation-resolvers",
+      "mutation-usage",
+      "resolver-client-utilities",
+      "resolver-server-utilities",
+      "use-query",
+      "use-paginated-query",
+      "use-infinite-query",
+      "use-mutation"
+    ]
+  },
+  {
+    "title": {
+      "title": "Arsitektur Backend",
+      "iconPath": "/img/mutations.svg",
+      "iconDarkPath": "/img/mutations-white.svg"
+    },
+    "pages": ["background-processing-with-quirrel", "middleware", "custom-server"]
+  },
+  {
+    "title": {
+      "title": "Menerapkan ke Produksi",
+      "iconPath": "/img/deploying-to-production.svg",
+      "iconDarkPath": "/img/deploying-to-production-white.svg"
+    },
+    "pages": ["deploy-render", "deploy-heroku", "deploy-vercel"]
+  },
+  {
+    "title": {
+      "title": "Resep",
+      "iconPath": "/img/recipe-purple.svg",
+      "iconDarkPath": "/img/recipe-white.svg"
+    },
+    "pages": ["using-recipes", "writing-recipes"]
+  },
+  {
+    "title": {
+      "title": "Konfigurasi",
+      "iconPath": "/img/config-purple.svg",
+      "iconDarkPath": "/img/config-white.svg"
+    },
+    "pages": [
+      "blitz-config",
+      "webpack-config",
+      "postcss-config",
+      "rpc-specification",
+      "measuring-performance"
+    ]
+  },
+  {
+    "title": {
+      "title": "CLI",
+      "iconPath": "/img/terminal-purple.svg",
+      "iconDarkPath": "/img/terminal-white.svg"
+    },
+    "pages": [
+      "cli-overview",
+      "cli-new",
+      "cli-dev",
+      "cli-start",
+      "cli-build",
+      "cli-export",
+      "cli-db",
+      "cli-prisma",
+      "cli-generate",
+      "cli-console",
+      "cli-install",
+      "cli-autocomplete",
+      "cli-routes"
+    ]
+  },
+  {
+    "title": {
+      "title": "Template",
+      "iconPath": "/img/template-purple.svg",
+      "iconDarkPath": "/img/template-white.svg"
+    },
+    "pages": ["templates"]
+  }
+]
