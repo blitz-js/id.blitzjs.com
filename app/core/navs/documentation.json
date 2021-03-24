@@ -1,7 +1,7 @@
 [
   {
     "title": {
-      "title": "Introduction",
+      "title": "Pengantar",
       "iconPath": "/img/introduction.svg",
       "iconDarkPath": "/img/introduction-white.svg"
     },
@@ -9,7 +9,7 @@
   },
   {
     "title": {
-      "title": "Community",
+      "title": "Komunitas",
       "iconPath": "/img/people-purple.svg",
       "iconDarkPath": "/img/people-white.svg"
     },
@@ -25,7 +25,7 @@
   },
   {
     "title": {
-      "title": "Basics",
+      "title": "Dasar",
       "iconPath": "/img/basics.svg",
       "iconDarkPath": "/img/basics-white.svg"
     },
@@ -42,7 +42,7 @@
   },
   {
     "title": {
-      "title": "Pages",
+      "title": "Halaman",
       "iconPath": "/img/pages.svg",
       "iconDarkPath": "/img/pages-white.svg"
     },
@@ -62,7 +62,7 @@
   },
   {
     "title": {
-      "title": "Routing",
+      "title": "Rute",
       "iconPath": "/img/routing.svg",
       "iconDarkPath": "/img/routing-white.svg"
     },
@@ -79,7 +79,7 @@
   },
   {
     "title": {
-      "title": "Auth",
+      "title": "Otentikasi",
       "iconPath": "/img/shield-purple.svg",
       "iconDarkPath": "/img/shield-white.svg"
     },
@@ -94,7 +94,7 @@
   },
   {
     "title": {
-      "title": "Database",
+      "title": "Pusat Data",
       "iconPath": "/img/database.svg",
       "iconDarkPath": "/img/database-white.svg"
     },
@@ -102,7 +102,7 @@
   },
   {
     "title": {
-      "title": "Queries & Mutations",
+      "title": "Kueri & Mutasi",
       "iconPath": "/img/queries.svg",
       "iconDarkPath": "/img/queries-white.svg"
     },
@@ -121,7 +121,7 @@
   },
   {
     "title": {
-      "title": "Backend Architecture",
+      "title": "Arsitektur Backend",
       "iconPath": "/img/mutations.svg",
       "iconDarkPath": "/img/mutations-white.svg"
     },
@@ -129,7 +129,7 @@
   },
   {
     "title": {
-      "title": "Deploying to Production",
+      "title": "Menerapkan ke Produksi",
       "iconPath": "/img/deploying-to-production.svg",
       "iconDarkPath": "/img/deploying-to-production-white.svg"
     },
@@ -137,7 +137,7 @@
   },
   {
     "title": {
-      "title": "Recipes",
+      "title": "Resep",
       "iconPath": "/img/recipe-purple.svg",
       "iconDarkPath": "/img/recipe-white.svg"
     },
@@ -145,7 +145,7 @@
   },
   {
     "title": {
-      "title": "Configuration",
+      "title": "Konfigurasi",
       "iconPath": "/img/config-purple.svg",
       "iconDarkPath": "/img/config-white.svg"
     },
@@ -181,7 +181,7 @@
   },
   {
     "title": {
-      "title": "Templates",
+      "title": "Template",
       "iconPath": "/img/template-purple.svg",
       "iconDarkPath": "/img/template-white.svg"
     },
