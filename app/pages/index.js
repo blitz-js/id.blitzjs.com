@@ -51,16 +51,17 @@ const Home = ({randomContributors}) => {
               <div className="grid grid-cols-1 gap-10 px-6 mx-auto max-w-7xl lg:grid-cols-3 xl:grid-cols-2 md:gap-6 xl:-mt-10">
                 <div className="z-10 space-y-10 lg:w-full">
                   <h2 className="-mt-8 font-medium text-5xl-squashed lg:-mt-0 font-secondary xl:text-6xl xl:font-medium dark:text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient-white to-blue-gradient-light-blue">
-                    The Fullstack React Framework
+                    Kerangka Kerja FullStack React
                   </h2>
                   <p className="text-lg xl:text-xl xl:font-medium text-off-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-blue-gradient-white lg:to-blue-gradient-light-blue xl:w-4/5">
-                    Blitz is a batteries-included framework that&apos;s inspired by Ruby on Rails,
-                    is built on Next.js, and features a &quot;Zero-API&quot; data layer abstraction
-                    that eliminates the need for REST/GraphQL.
+                    Blitz adalah kerangka kerja all-in-one, siap pakai yang terinspirasi oleh Ruby
+                    on Rails, dibangun di atas Next.js, dan memiliki fitur lapisan data
+                    &ldquo;Zero-API&rdquo; yang menghilangkan kebutuhan untuk menggunakan
+                    REST/GraphQL.
                   </p>
                   <div className="flex space-x-4">
                     <ButtonLink className="w-2/3 lg:w-auto rounded-tl-xl" href="/docs/get-started">
-                      Try Blitz in Under 5 Mins
+                      Coba Blitz dalam waktu kurang dari 5 menit
                     </ButtonLink>
                     <ButtonLink
                       href="https://github.com/blitz-js/blitz"
@@ -97,24 +98,25 @@ const Home = ({randomContributors}) => {
             </div>
             <div className="z-10 px-6 mx-auto space-y-12 text-lg text-center text-white lg:space-y-0 lg:space-x-12 lg:flex lg:text-left max-w-7xl xl:font-mediumxl:text-xl">
               <FeatureIcon icon="layers">
-                “Zero-API” data layer lets you{" "}
-                <strong>import server code directly into your components</strong> instead of having
-                to manually add API endpoints and do client-side fetching and caching.
+                “Zero-API” memungkinkan kamu{" "}
+                <strong>impor kode server langsung ke komponen-mu</strong> daripada harus membuat
+                setiap rute API, membuat permintaan dari klien, dan menangani cache.
               </FeatureIcon>
               <FeatureIcon icon="lighteningBolt">
-                New Blitz apps come with all the{" "}
-                <strong>boring stuff already set up for you!</strong> Like ESLint, Prettier, Jest,
-                user sign up, log in, and password reset.
+                Aplikasi Blitz terbaru hadir dengan{" "}
+                <strong>semua hal membosankan yang telah dikonfigurasi sebelumnya!</strong> Seperti
+                ESLint, Prettier, Jest, registrasi pengguna, login, dan reset kata sandi.
               </FeatureIcon>
               <FeatureIcon icon="graphUp">
-                Provides <strong>helpful defaults and conventions</strong> for things like routing,
-                file structure, and authentication while also being extremely flexible.
+                Menyediakan <strong>konvensi dan Default yang Bermanfaat</strong> untuk hal-hal
+                seperti perutean, struktur file, dan otentikasi tetapi tetap bersifat super
+                fleksibel.
               </FeatureIcon>
             </div>
             <div className="grid w-full gap-5 px-6 mx-auto text-white xl:gap-10 max-w-7xl lg:grid-cols-2">
               <Link href="/#" passHref>
                 <StyledLink className="flex items-center justify-between pb-1 text-lg border-b border-opacity-50 border-blue-mid lg:col-span-2 font-secondary xl:text-xl">
-                  <span>Top Videos</span>
+                  <span>Video unggulan</span>
 
                   {/*
                   <span className="flex items-center">
@@ -130,7 +132,7 @@ const Home = ({randomContributors}) => {
 
             <div className="relative w-full mx-auto space-y-10 lg:space-y-20 xl:space-y-36 max-w-7xl">
               <h2 className="px-6 text-3xl font-semibold xl:text-5xl xl:w-1/2">
-                Everything You Need For Production Apps
+                Semua Yang Kamu Butuhkan Untuk Aplikasi Produksi
               </h2>
               <div className="w-full">
                 <Hand
@@ -139,52 +141,61 @@ const Home = ({randomContributors}) => {
                 />
                 <Scrollbar className="lg:hidden" thumbHeight="4px">
                   <div className="grid pb-4 ml-6 features-grid lg:gap-y-14">
-                    <Feature title="Fullstack & Monolithic">
+                    <Feature title="Fullstack & Monolitik">
                       <p>
-                        Includes everything from the database to your frontend all inside a single
-                        app. Only one thing to develop. Only one thing to deploy.
+                        Ini mencakup segala sesuatu dari database ke antarmuka, semuanya dalam satu
+                        aplikasi. Hanya satu yang untuk di-kemembangan. Hanya satu yang untuk
+                        diluncurkan ke produksi.
                       </p>
-                      <p>And you can deploy to a server or serverless.</p>
+                      <p>Dan kamu dapat mempublikasikan proyek di server atau serverless.</p>
                     </Feature>
-                    <Feature title="API Not Required">
+                    <Feature title="Tidak perlu API">
                       <p>
-                        Instead of fetching data from the backend, you import your server code
-                        directly into your components. At build time, that function import is
-                        swapped out with an auto generated HTTP API.
-                      </p>
-                      <p>The generated API can also be used by apps & third-parties.</p>
-                    </Feature>
-                    <Feature title="Loose Opinions">
-                      <p>
-                        The out-of-the-box experience guides you on a path perfect for most
-                        applications. But when you need to go off the beaten path, you are totally
-                        free to do so.
+                        Alih-alih mendapatkan data dari backend, impor kode server langsung ke
+                        komponen kamu. Pada saat kompilasi, fungsi ini mengimpor dan menukar data
+                        dengan API HTTP yang dibuat secara otomatis.
                       </p>
                       <p>
-                        And nearly everything is pluggable. For example, we don&apos;t mandate which
-                        styling or form libraries you use.
+                        API yang dihasilkan juga dapat digunakan oleh aplikasi lain dan oleh pihak
+                        ketiga.
                       </p>
                     </Feature>
-                    <Feature title="Convention over Configuration">
+                    <Feature title="Pendapat yang Bebas">
                       <p>
-                        Blitz does all the boring set up and configuration for you. The common
-                        project structure and architectural patterns make it easy to move from one
-                        Blitz app to another and immediately feel at home.
+                        Pengalaman out-of-the-box memandu kamu di jalur yang sempurna untuk sebagian
+                        besar aplikasi. Tetapi ketika kamu harus keluar dari jalur, kamu benar-benar
+                        bebas untuk melakukannya.
+                      </p>
+                      <p>
+                        Dan hampir semuanya bisa dilakukan dengan plugin. Misalnya, kami tidak
+                        memerlukan style atau pustaka formulir mana yang akan digunakan.
                       </p>
                     </Feature>
-                    <Feature title="Easy to Start, Easy to Scale">
-                      <p>Easy for beginners and easy to migrate existing Next.js apps to Blitz.</p>
+                    <Feature title="Konvensi Konfigurasi">
                       <p>
-                        Easy to scale in all forms: lines of code, number of people working in the
-                        codebase, and code execution.
+                        Blitz melakukan semua tugas penyiapan dan perakitan yang membosankan untuk
+                        Anda. Struktur proyek dan pola arsitektur yang umum memudahkan untuk beralih
+                        dari satu aplikasi Blitz ke aplikasi lain dan langsung terasa seperti di
+                        rumah sendiri.
                       </p>
                     </Feature>
-                    <Feature title="Stability">
+                    <Feature title="Mudah untuk Memulai, Mudah untuk Berkembang">
                       <p>
-                        Once we reach version 1.0, we&apos;ll switch to a stable, predictable
-                        release cycle with multiple channels like stable, LTS, and beta.
+                        Mudah untuk pemula dan mudah untuk memigrasikan aplikasi yang ada dari
+                        Next.js ke Blitz.
                       </p>
-                      <p>We are taking a lot inspiration from Ember in this regard.</p>
+                      <p>
+                        Mudah untuk diskalakan dalam segala bentuk: baris kode, jumlah orang yang
+                        bekerja di basis kode, dan eksekusi kode.
+                      </p>
+                    </Feature>
+                    <Feature title="Stabilitas">
+                      <p>
+                        Setelah kami mencapai versi 1.0, kami akan beralih ke siklus rilis yang
+                        stabil dan dapat diprediksi dengan beberapa saluran seperti stabil, LTS, dan
+                        beta.
+                      </p>
+                      <p>Kami mengambil banyak inspirasi dari Ember dalam hal ini.</p>
                     </Feature>
                   </div>
                 </Scrollbar>
