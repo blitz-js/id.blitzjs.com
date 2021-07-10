@@ -124,16 +124,16 @@ File-file ini adalah:
 - `tsconfig.json` adalah pengaturan yang kami rekomendasikan untuk
   TypeScript.
 
-## The development server {#the-development-server}
+## Server pengembangan {#the-development-server}
 
-Now make sure you are in the `my-blitz-app` folder, if you haven’t
-already, and run the following command:
+Sekarang, pastikan kamu berada di dalam direktori `my-blitz-app` dan
+jalankan perintah berikut:
 
 ```sh
 blitz dev
 ```
 
-You’ll see the following output on the command line:
+Kamu akan melihat output berikut di baris perintah:
 
 ```sh
 ✔ Compiled
@@ -146,26 +146,27 @@ info  - Using external babel configuration from /my-blitz-app/babel.config.js
 event - compiled successfully
 ```
 
-Now that the server’s running, visit
-[localhost:3000](http://localhost:3000) with your web browser. You’ll see
-a welcome page, with the Blitz logo. It worked!
+Itu berarti server pengembangan sedang berjalan. Pergi ke
+[localhost:3000](http://localhost:3000) di browser kamu. Jika kamu melihat
+halaman splash dengan logo Blitz, Artinya kita berhasil!
 
-## Sign up as a user {#sign-up-as-a-user}
+## Daftar sebagai pengguna {#sign-up-as-a-user}
 
-Blitz apps are created with user signup and login already set up! So let's
-try it. Click on the **Sign Up** button. Enter any email and password and
-click **Create Account**. Then you'll be redirected back to the home page
-where you can see your user `id` and `role`.
+Aplikasi Blitz dibuat dengan registrasi dan login yang telah dibuat
+sebelumnya. Mari kita coba. Klik tombol **Sign Up** Masukkan alamat email
+dan kata sandi apa saja dan klik **Create Account**. Kemudian, kamu akan
+diarahkan kembali ke awal, di mana kamu akan melihat `id` dan `role`
+pengguna kamu.
 
-If you want, you can also try logging out and logging back in. Or click
-**Forgot your password?** on the login page to try that flow.
+Jika mau, kamu dapat mencoba menutup sesi, memulainya lagi, dan bahkan
+mengklik **Forgot your password?** dan lihat cara kerjanya.
 
-## Write your first page {#write-your-first-page}
+## Tulis halaman pertama-mu {#write-your-first-page}
 
-Next let's create your first page.
+Selanjutnya mari kita buat halaman pertama kamu.
 
-Open the file `app/pages/index.tsx` and replace the contents of the `Home`
-component with this:
+Buka file `app/pages/index.tsx` dan ganti konten component `Home` dengan
+yang berikut ini:
 
 ```tsx
 //...
@@ -173,9 +174,9 @@ component with this:
 const Home: BlitzPage = () => {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <h1>Halo Dunia!</h1>
 
-      <Suspense fallback="Loading...">
+      <Suspense fallback="Memuat...">
         <UserInfo />
       </Suspense>
     </div>
@@ -185,9 +186,9 @@ const Home: BlitzPage = () => {
 //...
 ```
 
-Save the file and you should see the page update in your browser. You can
-customize this as much as you want. When you’re ready, move on to the next
-section.
+Simpan file dan kamu akan melihat pembaruan halaman di browser-mu. Kamu
+bisa menyesuaikan ini sebanyak yang diinginkan. Saat kamu siap, lanjutkan
+ke bagian berikutnya.
 
 ## Database setup {#database-setup}
 
