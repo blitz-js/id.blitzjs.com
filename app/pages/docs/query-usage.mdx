@@ -102,11 +102,18 @@ Use the [`useInfiniteQuery`](./use-infinite-query) hook
 
 ### Prefetching {#prefetching}
 
+<<<<<<< HEAD
 All queries are automatically cached, so both of the following will cache
 the `getProject` query.
 
 ```ts
 import { invoke } from "blitz"
+=======
+All queries are automatically cached, so both of the following will cache the `getProject` query.
+
+```ts
+import {invoke} from 'blitz'
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
 
 const project = await invoke(getProject, { where: { id: props.id } })
 ```

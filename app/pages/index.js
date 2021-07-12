@@ -54,10 +54,16 @@ const Home = ({randomContributors}) => {
                     Framework FullStack React
                   </h2>
                   <p className="text-lg xl:text-xl xl:font-medium text-off-white lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-blue-gradient-white lg:to-blue-gradient-light-blue xl:w-4/5">
+<<<<<<< HEAD
                     Blitz adalah framework all-in-one, siap pakai yang terinspirasi oleh Ruby on
                     Rails, dibangun di atas Next.js, dan memiliki fitur lapisan data
                     &ldquo;Zero-API&rdquo; yang menghilangkan kebutuhan untuk menggunakan
                     REST/GraphQL.
+=======
+                    Blitz is a batteries-included framework that&apos;s inspired by Ruby on Rails,
+                    is built on Next.js, and features a &quot;Zero-API&quot; data layer abstraction
+                    that eliminates the need for REST/GraphQL.
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
                   </p>
                   <div className="flex space-x-4">
                     <ButtonLink className="w-2/3 lg:w-auto rounded-tl-xl" href="/docs/get-started">
@@ -167,8 +173,13 @@ const Home = ({randomContributors}) => {
                         bebas untuk melakukannya.
                       </p>
                       <p>
+<<<<<<< HEAD
                         Dan hampir semuanya bisa dilakukan dengan plugin. Misalnya, kami tidak
                         memerlukan style atau pustaka formulir mana yang akan digunakan.
+=======
+                        And nearly everything is pluggable. For example, we don&apos;t mandate which
+                        styling or form libraries you use.
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
                       </p>
                     </Feature>
                     <Feature title="Konvensi Konfigurasi">
@@ -191,9 +202,14 @@ const Home = ({randomContributors}) => {
                     </Feature>
                     <Feature title="Stabilitas">
                       <p>
+<<<<<<< HEAD
                         Setelah kami mencapai versi 1.0, kami akan beralih ke siklus rilis yang
                         stabil dan dapat diprediksi dengan beberapa saluran seperti stabil, LTS, dan
                         beta.
+=======
+                        Once we reach version 1.0, we&apos;ll switch to a stable, predictable
+                        release cycle with multiple channels like stable, LTS, and beta.
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
                       </p>
                       <p>Kami mengambil banyak inspirasi dari Ember dalam hal ini.</p>
                     </Feature>
@@ -288,8 +304,12 @@ const Home = ({randomContributors}) => {
                       sama.
                     </p>
                     <p className="lg:bg-gradient-to-r lg:from-blue-gradient-white lg:to-blue-gradient-light-blue lg:bg-clip-text">
+<<<<<<< HEAD
                       Kami mengundang kamu untuk membantu menjadikan Blitz sebagai framework terbaik
                       yang pernah kami miliki!
+=======
+                      We invite you to help make Blitz the best framework we&apos;ve ever had!
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
                     </p>
                   </div>
                   <Link href="/docs/contributing" passHref>

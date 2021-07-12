@@ -240,6 +240,7 @@ if (session.role === "admin") {
 
 #### `useCurrentUser()`
 
+<<<<<<< HEAD
 The second way is to use the `useCurrentUser()` hook. New Blitz apps by
 default have a `useCurrentUser()` hook and a corresponding
 `getCurrentUser` query. Unlike the `useSession()` approach above,
@@ -247,6 +248,10 @@ default have a `useCurrentUser()` hook and a corresponding
 However, if you need access to user data that would be insecure to store
 in the session's `publicData`, you would need to use `useCurrentUser()`
 instead of `useSession()`.
+=======
+The second way is to use the `useCurrentUser()` hook. New Blitz apps by default have a `useCurrentUser()` hook and a
+corresponding `getCurrentUser` query. Unlike the `useSession()` approach above, `useCurrentUser()` will require a network call and thus be slower. However, if you need access to user data that would be insecure to store in the session's `publicData`, you would need to use `useCurrentUser()` instead of `useSession()`.
+>>>>>>> c1b92d0818d4176f1f2357d015b0d0dec5b3e954
 
 ```tsx
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
